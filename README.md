@@ -1,4 +1,4 @@
-##Working scenario
+## Working scenario
 ```
 ✗ cargo +1.26.2 build --features feature                   
    Compiling cargo_check v0.1.0 (file:///Users/skletsun/projects/cargo_check)
@@ -16,7 +16,7 @@ test test_app ... ok
 test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
 
 ```
-##Doesn't work
+## Doesn't work
 ```
 ✗ cargo +1.28.0 build --features feature
    Compiling cargo_check v0.1.0 (file:///Users/skletsun/projects/cargo_check)
