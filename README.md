@@ -1,3 +1,12 @@
+To compile the library: 
+src>rustc --crate-type dylib lib.rs
+
+To run test: app>cargo test
+
+My result (cargo 1.37.0):
+running 1 test
+test test_app ... ok
+
 ## Working scenario
 ```
 ✗ cargo +1.26.2 build --features feature                   
